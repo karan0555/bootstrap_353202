@@ -3,24 +3,120 @@
 My Custom CSS
 =============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:    Hand coded for Udemy.com
+Author:  Karan Gumber
+Updated: November 2016
+Notes:    Hand coded for Hybrid Training
 
 */
 
+ body {
+      -webkit-font-smoothing:antialised;
+      text-rendering:optimizeLegibility; 
+      background: lightgrey;
+   }
 
 /* --------------------------------------
    Layout
+   -------------------------------------- */   
+   .listtext {
+      font-size: 17px;
+      text-align: justify;
+   }
+
+   #inputMessage {
+      margin-bottom: 15px;
+   }
+
+   #features {
+      text-align: center;
+   }
+
+   #features img {
+      margin: 0 0 20px;
+   }
+
+   #featuresHeading {
+      margin:0 0;
+   }
+
+   .panel {
+      background-color: black;
+   }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .well .page-header {
+      margin-top: 0;
+   }
+
+   .well .page-header h1 {
+      margin-top: 0;
+   }
+
+   .boxes {
+      width: 100%;
+      height: 100px;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput {
+      width: 160px;
+   }
+   
+   .navbar-brand {
+      padding: 5px 25px;
+   }
+   
+/* --------------------------------------
+   Carousel
    -------------------------------------- */
 
-   footer
-   {
+   #myCarousel {
+      margin-top: 65px;
+   }
+
+   #myCarousel. item {
+      height: 400px;
+   }
+
+   .carousel-caption {
+      font-size: 30px;
+   }
+
+   .carousel-caption h4 {
+      font-size: 36px;
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   #header {
+      background: black;
+   }
+   .alert {
+      margin-top: 20px;
+      display: none;
+   }
+
+   .well {
+      margin: 20px 0;
+      margin-left: 15px;
+      margin-right: 15px;
+   }
+
+   .tabbable img.thumbnail {
+      margin: 0 20px 10px 0;
+   }
+
+    footer {
       background: black;
       color: white;
    }
 
-   footer ul{
+   footer ul {
       list-style: none;
       text-decoration: none;
    }
@@ -30,217 +126,8 @@ Notes:    Hand coded for Udemy.com
       font-size: 20px;
       color: yellow;
    }
-   .listtext
-   {
-      font-size: 17px;
-      text-align: justify;
-   }
-   #inputMessage
-   {
-      margin-bottom: 15px;
-   }
-   #features
-   {
-      text-align: center;
 
-   }
-
-   #features img
-   {
-      margin: 0 0 20px;
-   }
-   #featuresHeading
-   {
-      margin:0 0;
-   }
-   .panel
-   {
-      background-color: black;
-   }
-
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-   #color
-   {
-      background: black;
-   }
-
-   body
-   {
-      -webkit-font-smoothing:antialised;
-      text-rendering:optimizeLegibility; 
-      background: lightgrey;
-
-   }
-   .well .page-header
-   {
-      margin-top: 0;
-
-
-   }
-   .well .page-header h1
-   {
-      margin-top: 0;
-
-   }
-   .boxes
-   {
+   #king {
       width: 100%;
-      height: 100px;
-   }
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-   #searchInput
-   {
-      width: 160px;
-   }
-   
-   .navbar-brand
-   {
-      padding: 5px 25px;
-   }
-   
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
-
-   #myCarousel
-   {
-      margin-top: 65px;
-   }
-   #myCarousel. item
-   {
-      height: 400px;
-   }
-
-   .carousel-caption
-   {
-      font-size: 30px;
-   }
-   .carousel-caption h4
-   {
-      font-size: 36px;
-   }
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-   .alert
-   {
-      margin-top: 20px;
-      display: none;
-   }
-   .well
-   {
-      margin: 20px 0;
-      margin-left: 15px;
-      margin-right: 15px;
-
-   }
-   .tabbable img.thumbnail
-   {
-      margin: 0 20px 10px 0;
-   }
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-   /* Portrait & landscape phone */
-   @media (max-width: 480px) {
-      #color
-      {
-         background: black;
-      }
-
-
-   }
-
-   /* Landscape phone to portrait tablet */
-   @media (max-width: 768px) {
-      #color
-      {
-         background: black;
-      }
-
-      footer
-
-      {
-         background: black;
-         color: white;
-      }
-
-      
-
-      .carousel-caption
-      {
-         font-size: 12px;
-      }
-      .carousel-caption h4
-      {
-         font-size: 14px;
-      }
-
-      #slide1
-      {
-         background: url(../../images/composer4.jpg) top center no-repeat;
-
-      }
-      #slide2
-      {
-         background: url(../../images/composer2.jpg) top center no-repeat;
-
-      }
-      #slide3
-      {
-         background: url(../../images/composer3.jpg) top center no-repeat;
-
-      }
-      #slide4
-      {
-         background: url(../../images/composer1.jpg) top center no-repeat;
-      }
-
-   }
-
-   /* Large desktop */
-   @media (min-width: 1200px) {
-
-      #color
-      {
-         background: black;
-      }
-
-      #slide1
-      {
-         background: url(../../images/composer4.jpg) top center no-repeat;
-
-      }
-      #slide2
-      {
-         background: url(../../images/composer2.jpg) top center no-repeat;
-
-      }
-      #slide3
-      {
-         background: url(../../images/composer3.jpg) top center no-repeat;
-
-      }
-      #slide4
-      {
-         background: url(../../images/composer1.jpg) top center no-repeat;
-      }
-
-      footer
-      {
-         background: black;
-         color: white;
-
-      }
+      height: 20%;
    }
