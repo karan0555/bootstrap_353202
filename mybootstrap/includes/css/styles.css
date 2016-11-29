@@ -1,4 +1,5 @@
-<meta charset="utf-8">/*
+@import "https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lobster|Anton|Indie+Flower";
+/*
 
 My Custom CSS
 =============
@@ -12,6 +13,7 @@ Notes:    Hand coded for Hybrid Training
  body {
       -webkit-font-smoothing:antialised;
       text-rendering:optimizeLegibility; 
+      font-family: "Gloria Hallelujah";
       background: lightgrey;
    }
 
@@ -111,7 +113,12 @@ Notes:    Hand coded for Hybrid Training
       margin: 0 20px 10px 0;
    }
 
+   section {
+      font-family: Anton;
+   }
+
     footer {
+      font-family: "Indie Flower";
       background: black;
       color: white;
    }
@@ -130,4 +137,8 @@ Notes:    Hand coded for Hybrid Training
    #king {
       width: 100%;
       height: 20%;
+   }
+
+   #mainBody {
+      background-color: lightgrey;
    }
